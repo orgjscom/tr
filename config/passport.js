@@ -48,12 +48,10 @@ module.exports.passport = {
     protocol: 'oauth2',
     strategy: require('passport-facebook').Strategy,
     options: {
+      callbackURL: 'https://transited.herokuapp.com/auth/facebook/callback',
       clientID: '1374320415928593',
       clientSecret: '564eadc96d7c477df309c438d9720064',
       scope: ['email'] /* email is necessary for login behavior */,
-      ssoBaseURL: 'https://transited.herokuapp.com',
-      serverBaseURL: 'https://transited.herokuapp.com',
-      serviceURL: 'https://transited.herokuapp.com/auth/facebook/callback'
     }
   },
 
