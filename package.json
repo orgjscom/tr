@@ -36,7 +36,7 @@
   },
   "scripts": {
     "debug": "node debug app.js",
-    "start": "node app.js --silent --port=80 --prod"
+    "start": "node app.js"
   },
   "main": "app.js",
   "repository": {
