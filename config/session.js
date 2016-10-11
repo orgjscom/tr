@@ -55,12 +55,12 @@ module.exports.session = {
   *                                                                          *
   ***************************************************************************/
 
-  // host: 'localhost',
-  // port: 6379,
-  // ttl: <redis session TTL in seconds>,
-  // db: 0,
-  // pass: <redis auth password>,
-  // prefix: 'sess:',
+   host: 'aws-eu-west-1-portal.1.dblayer.com',
+   port: 15293,
+   ttl: 7 * 24 * 60 * 60,
+   db: 0,
+   pass: 'AJTPNSMYKKYFMVTT',
+   prefix: 'sess:',
 
 
   /***************************************************************************
