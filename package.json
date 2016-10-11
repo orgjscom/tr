@@ -37,7 +37,8 @@
   "scripts": {
     "debug": "node debug app.js",
     "start": "sails lift --prod",
-    "preinstall" : "npm i -g sails"
+    "preinstall" : "npm i -g sails",
+    "heroku-prebuild": "NODE_ENV=production"
   },
   "main": "app.js",
   "repository": {
