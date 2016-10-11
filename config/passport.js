@@ -50,7 +50,10 @@ module.exports.passport = {
     options: {
       clientID: '1374320415928593',
       clientSecret: '564eadc96d7c477df309c438d9720064',
-      scope: ['email'] /* email is necessary for login behavior */
+      scope: ['email'] /* email is necessary for login behavior */,
+      ssoBaseURL: 'https://transited.herokuapp.com',
+      serverBaseURL: 'https://transited.herokuapp.com',
+      serviceURL: 'https://transited.herokuapp.com/auth/facebook/callback'
     }
   },
 
