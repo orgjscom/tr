@@ -36,7 +36,8 @@
   },
   "scripts": {
     "debug": "node debug app.js",
-    "start": "node app.js"
+    "start": "sails lift --prod",
+    "preinstall" : "npm i -g sails"
   },
   "main": "app.js",
   "repository": {
