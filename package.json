@@ -6,6 +6,7 @@
   "keywords": [],
   "dependencies": {
     "bcryptjs": "^2.3.0",
+    "connect-redis": "^3.1.0",
     "ejs": "2.3.4",
     "grunt": "1.0.1",
     "grunt-contrib-clean": "1.0.0",
@@ -29,10 +30,12 @@
     "passport-local": "^1.0.0",
     "passport-twitter": "^1.0.4",
     "rc": "1.0.1",
+    "redis": "^2.6.2",
     "sails": "~0.12.7",
     "sails-disk": "~0.10.9",
     "sails-generate-auth": "^0.3.1",
     "sails-mongo": "^0.12.1",
+    "socket.io-redis": "^1.1.1",
     "validator": "^6.0.0"
   },
   "scripts": {

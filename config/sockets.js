@@ -44,11 +44,11 @@ module.exports.sockets = {
   // -OR-
   //
 
-  // adapter: 'socket.io-redis',
-  // host: '127.0.0.1',
-  // port: 6379,
-  // db: 0,
-  // pass: '<redis auth password>',
+   adapter: 'socket.io-redis',
+   host: 'aws-eu-west-1-portal.1.dblayer.com',
+   port: 15293,
+   db: 0,
+   pass: 'AJTPNSMYKKYFMVTT',
 
 
 
