@@ -45,10 +45,10 @@ module.exports.sockets = {
   //
 
    adapter: 'socket.io-redis',
-   host: 'aws-eu-west-1-portal.1.dblayer.com',
-   port: 15293,
+   host: 'localhost',
+   port: 6379,
    db: 0,
-   pass: 'AJTPNSMYKKYFMVTT',
+   // pass: 'AJTPNSMYKKYFMVTT',
 
 
 

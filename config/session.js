@@ -55,11 +55,11 @@ module.exports.session = {
   *                                                                          *
   ***************************************************************************/
 
-   host: 'aws-eu-west-1-portal.1.dblayer.com',
-   port: 15293,
+   host: 'localhost',
+   port: 6379,
    ttl: 24 * 60 * 60 * 1000,
    db: 0,
-   pass: 'AJTPNSMYKKYFMVTT',
+   // pass: 'AJTPNSMYKKYFMVTT',
    prefix: 'sess:',
 
 

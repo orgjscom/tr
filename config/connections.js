@@ -58,11 +58,11 @@ module.exports.connections = {
   ***************************************************************************/
    someMongodbServer: {
      adapter: 'sails-mongo',
-     host: 'c345.lamppost.15.mongolayer.com',
-     port: 10345,
-     user: 'transit', //optional
-     password: 'transit', //optional
-     database: 'rst' //optional
+     host: 'localhost',
+     port: 27017,
+     // user: 'transit', //optional
+     // password: 'transit', //optional
+     // database: 'rst' //optional
    },
 
   /***************************************************************************
